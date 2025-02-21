@@ -1,0 +1,4 @@
+# XOR Linked List in Zig
+[XOR Linked List](https://en.wikipedia.org/wiki/XOR_linked_list) is a data structure that requires only one address while allowing traversing in both directions, given you already know two consecutive elements. This is a testing project to test both the implementation process of the XOR Linked List and the compilation of Zig to WebAssembly. The testing module is intended to be built as a library, so it does not have an entrance function. 
+
+While it builds successfully and the functions work as intended when run with the `zig test` command to run the tests, it may not have a valid way of interacting with the library yet, and I will implement one if I decide to improve this testing project.
